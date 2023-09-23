@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Monaco;
+}
+  
+.right {
+    float: right;
+}
+
+.left {
+    display: inline-block;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.color {
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+.gridContainer {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+}
