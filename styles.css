@@ -1,37 +1,43 @@
+/* Estilos globales para el elemento HTML */
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: Monaco;
+    margin: 0;  /* Elimina el margen alrededor del elemento HTML */
+    padding: 0;  /* Elimina el relleno alrededor del elemento HTML */
+    box-sizing: border-box;  /* Cambia el modelo de caja para que width y height incluyan el relleno y el borde */
+    text-align: center;  /* Alinea el texto al centro */
+    font-family: Monaco;  /* Establece la fuente a Monaco */
 }
-  
+
+/* Estilos para elementos con la clase .right */
 .right {
-    float: right;
+    float: right;  /* Hace que el elemento flote a la derecha */
 }
 
+/* Estilos para elementos con la clase .left */
 .left {
-    display: inline-block;
+    display: inline-block;  /* Cambia el tipo de visualización a inline-block */
 }
 
+/* Estilos para elementos con la clase .square */
 .square {
-    background-color: white;
-    border: 1px solid black;
+    background-color: white;  /* Establece el fondo en blanco */
+    border: 1px solid black;  /* Establece un borde negro de 1px */
 }
 
+/* Estilos para elementos con la clase .color */
 .color {
-    background-color: greenyellow;
-    border: 1px solid black;
+    background-color: greenyellow;  /* Establece el fondo en verde-amarillo */
+    border: 1px solid black;  /* Establece un borde negro de 1px */
 }
 
+/* Estilos para elementos con la clase .gridContainer */
 .gridContainer {
-    margin-top: 25px;
-    margin-right: 40px;
-    display: inline-grid;
-    grid-template-columns: repeat(16, 2fr);
-    grid-template-rows: repeat(16, 2fr);
-    border: 5px solid black;
-    border-radius: 5px;
-    height: 575px;
-    width: 575px;
+    margin-top: 25px;  /* Añade un margen superior de 25px */
+    margin-right: 40px;  /* Añade un margen derecho de 40px */
+    display: inline-grid;  /* Establece el tipo de visualización en inline-grid */
+    grid-template-columns: repeat(16, 2fr);  /* Crea 16 columnas, cada una tomando 2 fracciones del espacio disponible */
+    grid-template-rows: repeat(16, 2fr);  /* Crea 16 filas, cada una tomando 2 fracciones del espacio disponible */
+    border: 5px solid black;  /* Establece un borde negro de 5px */
+    border-radius: 5px;  /* Redondea las esquinas del borde con un radio de 5px */
+    height: 575px;  /* Establece la altura a 575px */
+    width: 575px;  /* Establece la anchura a 575px */
 }
